@@ -115,4 +115,50 @@ end
 endmodule
 
 ```
+
+
+### RTL LOGIC REGISTERS:
+
+
+![ss2](https://user-images.githubusercontent.com/94154683/172343913-256260d6-9cce-43cf-b513-941100041544.png)
+
+
+### TIMING DIGRAMS FOR SHIFT REGISTERS
+
+![SWQ](https://user-images.githubusercontent.com/94154683/172344015-e16e255a-db94-4c06-890d-6588ce130c18.jpeg)
+
+
+### PROGRAM 3:
+
+```
+Program for  Implementation-of Shift-registers-using-verilog-
+Developed by: EASWAR17
+RegisterNumber:  212221230024
+
+module sipo(pi,po,clk);
+input clk;
+input [3:0] pi;
+output reg [3:0] po;
+always @ (posedge clk)
+begin 
+po=pi;
+end
+endmodule 
+
+```
+
+### RTL LOGIC REGISTERS:
+
+![ss3](https://user-images.githubusercontent.com/94154683/172344360-bd4ff61b-045e-48fc-aa3c-5307143dfa9d.png)
+
+
+
+### TIMING DIGRAMS FOR SHIFT REGISTERS
+
+![ASD](https://user-images.githubusercontent.com/94154683/172344436-bce4ef17-9b7e-4ed0-99f4-7c85e2be9979.jpeg)
+
+
+
+
 ### RESULTS 
+ THUS THE PROGRAM TO IMPLEMENT SHIFT REGISTERS IS DONE SUCCESSFUL.
